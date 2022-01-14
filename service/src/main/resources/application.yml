@@ -2,7 +2,7 @@
 # = Server
 # =================================
 server:
-  port: 8080
+  port: 8090
   servlet:
     context-path: /v1
 
@@ -12,9 +12,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/bluemeet?createDatabaseIfNotExist=true&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3307/bluemeet?createDatabaseIfNotExist=true&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
     username: root
-    password: root
+    password: 420024Jojo
     type: com.zaxxer.hikari.HikariDataSource
 
 # =================================
